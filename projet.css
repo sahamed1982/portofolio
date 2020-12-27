@@ -1,0 +1,822 @@
+*, 
+::before,
+::after
+{ 
+    padding: 0;
+    margin: 0;
+}
+
+html
+{    
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: rgb(59, 58, 58);
+    scroll-behavior: smooth;
+}
+/* all buttons....................................................................... */
+ 
+.red-button-contact img
+{
+ 
+    position: relative;
+    top: 9px;
+    left: -15px;
+    z-index:1;
+    margin-top: 0px;
+ 
+}
+
+.red-button-contact
+{
+
+    text-align: right;
+    text-decoration: none;
+    vertical-align: center;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(242, 30, 78);
+    width: 13rem;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 40px;
+    border-radius: 9%;
+
+    z-index:auto;
+}
+.red-button-dowload img
+{
+ 
+    position: relative;
+    top: 9px;
+    left: -15px;
+    z-index:1;
+    margin-top: 0px;
+ 
+}
+
+.red-button-dowload
+{
+
+    text-align: right;
+    text-decoration: none;
+    vertical-align: center;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(242, 30, 78);
+    width: 13rem;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 40px;
+    border-radius: 9%;
+
+    z-index:auto;
+}
+
+.red-button img
+{
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+    z-index:1;
+}
+.red-button
+{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    vertical-align: center;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(242, 30, 78);
+    width: 10rem;
+    height: 35px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border-radius: 9%;
+    position: absolute;
+    top:9rem;
+
+    z-index:auto;
+}
+/* all buttons  end................................................................................ */
+.header
+{
+    width: 100%;
+    height: 95vh;
+    background-color: rgb(246, 247, 248);
+    background-image: url(asset/image/avatar.jpeg);
+    background-repeat: no-repeat;
+    background-position: right 0px bottom 0px;
+}
+
+.header .menu
+{
+    width: 110px;
+    height: 95vh;
+    background-color: white;
+    margin-top: 0;
+}
+
+.header .menu .logo_container
+{
+    width: fit-content;
+    height:fit-content;
+    margin-top: 0px;
+    margin-left: 30px;
+    padding-top: 23px;
+    padding-bottom: 5px;
+}
+
+.header .menu .logo_container .logo
+{
+    text-align: center;
+    font-weight:200 ;
+    font-size: 16px;
+    color: white;
+    height: 28px;
+    width: 35px;
+    background-color: rgb(242, 30, 78);;
+    border-radius: 50%;
+    transform: rotate(1deg);
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.header .menu ul
+{
+    list-style-type: none;
+}
+
+.header .menu ul.partage 
+{
+    padding-right: 10px;
+}
+
+.header .menu ul li
+{
+font-size: 14.5px;
+font-family: sans-serif, sans-serif, Geneva, Tahoma, sans-serif;
+font-weight: 550;
+width: 100px;
+height:30px;
+display : flex;
+flex-direction: column;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 8px;
+margin-left: 10px;
+margin-right: 28px;
+transform: rotate(-90deg);
+padding-top: 5px;
+}
+
+.header .menu ul li a
+{
+text-decoration: none;
+font-style: none;
+color:rgb(51, 57, 63);
+}
+
+.header .menu ul li a:hover
+{
+color:rgb(242, 30, 78);
+font-weight: 550;  
+}
+
+.header div.banner .social_network
+{
+position: absolute;
+margin: 0px;
+padding: 0px;
+top: 1rem;
+left: 10rem;
+}
+
+.header .banner_content
+{
+position: absolute;
+left: 10rem;
+top: 12.5rem;
+height: 12rem;
+}
+
+.header .banner_content p
+{
+font-family: sans-serif;
+font-weight: 2%;
+font-size: 15px;
+padding-bottom: 12px;
+}
+
+.header .banner_content h1
+{
+font-size: 35px;
+font-weight: 900;
+color: rgb(51, 57, 63);
+font-family: sans-serif;
+padding-bottom: 15px;
+}
+
+.banner .adress div
+{
+ margin-right: 25px;
+}
+
+.banner .adress
+{
+display: flex;
+wrap: nowrap;
+position: absolute;
+width: 700px;
+left: 155px;
+bottom: 50px;
+background-color: rgb(246, 247, 248);
+}
+
+.banner .adress p
+{
+margin-right: 5px;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+font-size: 0.9rem;
+font-style: normal;
+color:rgb(51, 57, 63);
+}
+
+.banner .adress a
+{
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-size: 0.8rem;
+font-weight: 3%;
+color: rgb(51, 57, 63);
+}
+/*  FIN PARTIE Banner */
+/*   PARTIE About*/
+
+.about
+{   
+    width: 100%;
+    padding-left: 160px;
+    padding-right: 15px;
+    height: 680px;
+}
+
+.about .about_me
+{   
+    margin-top: 90px;
+    margin-left: 0px;
+}
+
+.about .about_me h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1.7rem;
+    font-weight: 3%;
+    color: rgb(51, 57, 63);
+}
+
+.about .about_me p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 2%;
+    color: rgb(51, 57, 63);
+    margin-top: 10px;
+}
+
+.about .main
+{
+    margin-top: 35px;
+    height: 580px;
+}
+
+.about .main .photo_me
+{
+    width: 360px;
+    height: 310px;
+    margin-top: 20px;
+    margin-left: 0px;
+    background:rgb(0, 0, 0);
+    border-radius: 5%; 
+}
+
+.about .main .photo_me img
+{
+    margin: 5px;
+    border-radius: 5%;
+}
+
+.about .main .bio
+{   position: relative;
+    width: 730px;
+    height: 150px;
+    left:  385px;
+    bottom: 317px;
+}
+
+.about .main .bio h3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1.4rem;
+    font-weight: 3%;
+    color: rgb(51, 57, 63);
+    padding-bottom: 15px;
+}
+
+.about .main .bio p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 2%;
+    color: rgb(51, 57, 63);
+}
+
+.about .main .info
+{
+    position: relative;
+    display: flex;
+    wrap: nowrap;
+    width: 730px;
+    height: 150px;
+    left:  385px;
+    bottom: 304px;
+}
+
+.about .main .info .perso
+{
+    width: 365px;
+    height: 150px;
+}
+
+.about .info .contact
+{
+    width: 365px;
+    height: 150px;
+}
+
+.about .main .info ul
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.about .main .info ul li
+{
+text-align: left;
+padding: 5px;
+margin-top: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 2%;
+    color: rgb(51, 57, 63);
+}
+
+.about .dowload_cv
+{
+    position: relative;
+    bottom: 300px;
+    width: 300px;
+    height:50px;
+    padding-top: 0px;
+    margin-left: 24.3rem;
+}
+
+.about .wrapper_square
+{
+    position: relative;
+    justify-content: space-between;
+    
+    display:flex;
+    word-wrap: nowrap;
+    bottom: 240px;
+    width: 1140px;
+    height: fit-content;
+    
+}
+
+.about .main .wrapper_square .square
+{   
+    background:rgb(248, 249, 251);
+    width: 119px;
+    height: 125px;
+    text-align: center;
+}
+
+.about .main .wrapper_square .square img
+{
+    margin: 10px;
+}
+
+.about .main .wrapper_square .square p
+{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 10%;
+    text-align: center;
+    color: rgb(51, 57, 63);
+    margin-top: 5px;
+}
+/*  FIN PARTIE About Me*/
+/*   PARTIE My Experience My EducatioN*/
+.cv .top_cv
+{
+    width: 1180px;
+    height: 65px;
+    
+}
+
+.cv .top_cv .titre_experience
+{
+    width: 635px;
+    height: 65px;
+}
+
+.cv .top_cv .titre_experience p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1.1rem;
+    font-weight:900;
+    text-align: left;
+    color: rgb(51, 57, 63)
+}
+
+.cv .top_cv .titre_education
+{ position: relative;
+    bottom: 65px;
+    left: 630px;
+  width: 645px; 
+  height: 65px; 
+}
+.cv .top_cv .titre_education p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1.1rem;
+    font-weight:900;
+    text-align: left;
+    color: rgb(51, 57, 63);
+}
+.cv .content_cv
+{
+    position: relative;
+    margin-left: -5px;
+    bottom: 65px;  
+    width: 540px;
+    height: 550px;
+}
+.cv .content_cv2
+{
+    position: absolute;
+    left:755px ;
+    bottom: 500px;
+    margin-left: 15px;
+    top : 1455px;
+    width: 540px;
+    height: 550px;
+}
+
+.cv .content_cv p
+{   
+    display: block;
+    padding-block: 10px;
+
+}
+
+.cv .content_cv2 p
+{   
+    display: block;
+    padding-block: 10px;
+
+}
+
+.cv .content_cv .content_experience
+{
+    margin-right:10px;
+    width: 580px;
+    height: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.cv .content_cv2 .content_education
+{
+    margin-left: 10px;
+    width: 537px;
+    height: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.cv .content_cv li
+{
+    background-image: url('asset/image/puce.png');
+    background-repeat: no-repeat;
+    background-position: 1em 2.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: 2em;
+    list-style-type: none;
+
+}
+.cv .content_cv2 li
+{
+    background-image: url('asset/image/puce.png');
+    background-repeat: no-repeat;
+    background-position: 1em 2.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: 2em;
+    list-style-type: none;
+}
+/*  titre, date, comment inclus dans cv et cv2......*/
+.titre
+{   padding-top : 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight:950;
+    color: rgb(51, 57, 63);
+}
+.date
+{   margin-top: -13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.75rem;
+    font: weight 1%;
+    color: rgb(134, 163, 168);
+}
+.comment
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: rgb(51, 57, 63);
+    margin-bottom: 25px;
+}
+/*  FIN......titre, date, comment dans cv et cv2......*/
+/*  FIN PARTIE My Experience My Education*/
+
+
+/*   PARTIE My Experience My Services*/
+
+.my_services
+{
+    width: fit-content;
+    margin-right: 10px;
+   
+}
+.my_services .services
+{
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+.my_services .services h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1.7rem;
+    font-weight: 3%;
+    color: rgb(51, 57, 63);
+}
+
+.my_services .services p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 2%;
+    color: rgb(51, 57, 63);
+    margin-top: 10px;
+}
+
+.my_services .wrapper_number
+{
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.my_services .wrapper_number .square2
+{
+    background:rgb(248, 249, 251);
+    width: 300px;
+    height: 220px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+    margin-bottom: 35px;
+    vertical-align: middle;
+}
+.my_services .wrapper_number .square2 .number
+
+{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color:rgb(242, 30, 78);
+    vertical-align: middle;
+    display: inline-block;
+    width: 100;
+    height: 100;
+    border: 1px solid rgb(242, 30, 78);
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.my_services .wrapper_number .square2 .square2_titre
+{
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1.1rem;
+    font-weight:900;
+    text-align: centre;
+    color: rgb(51, 57, 63);
+}
+
+.my_services .wrapper_number .square2 .square2_content
+{
+    margin-top: 15px;
+    margin-left: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.85rem;
+    font-weight:500;
+    color: rgb(51, 57, 63);
+    width: 250px;
+}
+
+/*  FIN PARTIE My Experience My Services**/
+/*   PARTIE  My Works....................... */
+
+.my_works 
+{
+
+}
+.my_works .works h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1.7rem;
+    font-weight: 3%;
+    color: rgb(51, 57, 63);
+}
+
+.my_works .works p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 2%;
+    color: rgb(51, 57, 63);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.my_works .wrapper_works
+{
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+
+.my_works .wrapper_works img 
+{ 
+    width: 350px;
+    height: 320px;
+    text-align: center;
+    margin-bottom: 10px;
+    vertical-align: middle;
+ 
+}
+
+.my_works .wrapper_works figure figcaption
+{
+    background-color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(51, 57, 63);
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    text-align: left ;
+    height: 20px;
+    background-image: url(asset/image/go_to.png);
+    background-repeat: no-repeat;
+    background-position: right;
+        
+}
+.my_works .wrapper_works figure
+{
+    box-shadow: 0 4px 8px 0 rgba(121, 119, 119, 0.2), 0 6px 20px 0 rgba(128, 126, 126, 0.2);
+    margin-bottom: 25px;
+}
+
+/*  FIN PARTIE Myworkss**/
+
+/*   PARTIE  Contact me...................... */
+
+.talk h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1.7rem;
+    font-weight: 3%;
+    color: rgb(51, 57, 63);
+    margin-top:25px;
+
+}
+.talk p
+
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 2%;
+    color: rgb(51, 57, 63);
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}
+.contact_me
+{
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap ;
+}
+.contact_me .formulaire
+{
+background:rgb(248, 249, 251);
+width: 635px;
+height: 450px;
+}
+
+::placeholder
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(51, 57, 63);
+    margin-top: 10px;
+    background:rgb(248, 249, 251);
+    padding-left: 5px;
+}
+
+input 
+{
+    
+}
+
+fieldset 
+{
+padding-left: 15px;
+height: 450px;
+border:1px solid lightgrey;
+}
+.contact_me .wrapper_talk
+
+{
+width: 635px; 
+padding-left: 20px;
+padding-right:170px;
+}
+.contact_me .wrapper_talk .contact p
+{
+    margin-right: 5px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-style: normal;
+    color:rgb(51, 57, 63);
+}
+.contact_me .wrapper_talk .contact a
+{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 0.8rem;
+    font-weight: 3%;
+    color: rgb(51, 57, 63);
+    
+}
