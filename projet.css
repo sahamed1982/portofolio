@@ -160,9 +160,9 @@ html
 {
 font-size: 14.5px;
 font-family: sans-serif, sans-serif, Geneva, Tahoma, sans-serif;
-font-weight: 550;
+font-weight:600;
 width: 100px;
-height:30px;
+height:30px;;
 display : flex;
 flex-direction: column;
 text-align: center;
@@ -177,14 +177,14 @@ padding-top: 5px;
 .header .menu ul li a
 {
 text-decoration: none;
-font-style: none;
+font-style: normal;
 color:rgb(51, 57, 63);
 }
 
 .header .menu ul li a:hover
 {
 color:rgb(242, 30, 78);
-font-weight: 550;  
+font-weight: 600;  
 }
 
 .header div.banner .social_network
@@ -207,7 +207,7 @@ height: 12rem;
 .header .banner_content p
 {
 font-family: sans-serif;
-font-weight: 2%;
+font-weight:300;
 font-size: 15px;
 padding-bottom: 12px;
 }
@@ -229,7 +229,7 @@ padding-bottom: 15px;
 .banner .adress
 {
 display: flex;
-wrap: nowrap;
+flex-wrap: nowrap;
 position: absolute;
 width: 700px;
 left: 155px;
@@ -254,7 +254,7 @@ text-decoration: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-style: normal;
 font-size: 0.8rem;
-font-weight: 3%;
+font-weight:500;
 color: rgb(51, 57, 63);
 }
 /*  FIN PARTIE Banner */
@@ -279,7 +279,7 @@ color: rgb(51, 57, 63);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 1.7rem;
-    font-weight: 3%;
+    font-weight:500;
     color: rgb(51, 57, 63);
 }
 
@@ -288,7 +288,7 @@ color: rgb(51, 57, 63);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 0.9rem;
-    font-weight: 2%;
+    font-weight:300;
     color: rgb(51, 57, 63);
     margin-top: 10px;
 }
@@ -328,7 +328,7 @@ color: rgb(51, 57, 63);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 1.4rem;
-    font-weight: 3%;
+    font-weight:500;
     color: rgb(51, 57, 63);
     padding-bottom: 15px;
 }
@@ -338,7 +338,7 @@ color: rgb(51, 57, 63);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 0.9rem;
-    font-weight: 2%;
+    font-weight:300;
     color: rgb(51, 57, 63);
 }
 
@@ -346,7 +346,7 @@ color: rgb(51, 57, 63);
 {
     position: relative;
     display: flex;
-    wrap: nowrap;
+    flex-wrap: nowrap;
     width: 730px;
     height: 150px;
     left:  385px;
@@ -379,7 +379,7 @@ margin-top: 10px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 0.9rem;
-    font-weight: 2%;
+    font-weight:300;
     color: rgb(51, 57, 63);
 }
 
@@ -399,7 +399,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: space-between;
     
     display:flex;
-    word-wrap: nowrap;
+    flex-wrap: nowrap;
     bottom: 240px;
     width: 1140px;
     height: fit-content;
@@ -425,7 +425,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 0.9rem;
-    font-weight: 10%;
+    font-weight: bold;
     text-align: center;
     color: rgb(51, 57, 63);
     margin-top: 5px;
@@ -493,14 +493,14 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .cv .content_cv p
 {   
     display: block;
-    padding-block: 10px;
+    
 
 }
 
 .cv .content_cv2 p
 {   
     display: block;
-    padding-block: 10px;
+    
 
 }
 
@@ -547,7 +547,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 0.9rem;
-    font-weight:950;
+    font-weight:900;
     color: rgb(51, 57, 63);
 }
 .date
@@ -555,7 +555,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 0.75rem;
-    font: weight 1%;
+    font-weight:200;
     color: rgb(134, 163, 168);
 }
 .comment
@@ -590,7 +590,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 1.7rem;
-    font-weight: 3%;
+    font-weight:500;
     color: rgb(51, 57, 63);
 }
 
@@ -599,7 +599,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 0.9rem;
-    font-weight: 2%;
+    font-weight:300;
     color: rgb(51, 57, 63);
     margin-top: 10px;
 }
@@ -631,8 +631,8 @@ flex-wrap: wrap;
     color:rgb(242, 30, 78);
     vertical-align: middle;
     display: inline-block;
-    width: 100;
-    height: 100;
+    width: 100px;
+    height: 100px;
     border: 1px solid rgb(242, 30, 78);
     border-radius: 50%;
     padding: 20px;
@@ -646,7 +646,7 @@ flex-wrap: wrap;
     font-style: normal;
     font-size: 1.1rem;
     font-weight:900;
-    text-align: centre;
+    text-align: center;
     color: rgb(51, 57, 63);
 }
 
@@ -675,7 +675,7 @@ flex-wrap: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 1.7rem;
-    font-weight: 3%;
+    font-weight:500;
     color: rgb(51, 57, 63);
 }
 
@@ -684,7 +684,7 @@ flex-wrap: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 0.9rem;
-    font-weight: 2%;
+    font-weight:300;
     color: rgb(51, 57, 63);
     margin-top: 10px;
     margin-bottom: 50px;
@@ -740,7 +740,7 @@ flex-wrap: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 1.7rem;
-    font-weight: 3%;
+    font-weight:500;
     color: rgb(51, 57, 63);
     margin-top:25px;
 
@@ -751,7 +751,7 @@ flex-wrap: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 0.9rem;
-    font-weight: 2%;
+    font-weight:300;
     color: rgb(51, 57, 63);
     margin-top: 10px;
     margin-bottom: 25px;
@@ -773,7 +773,7 @@ height: 450px;
 ::placeholder
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: bold;
+    font-weight: bold;
     font-size: 0.8rem;
     font-weight: bold;
     color: rgb(51, 57, 63);
@@ -816,7 +816,7 @@ padding-right:170px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 0.8rem;
-    font-weight: 3%;
+    font-weight:500;
     color: rgb(51, 57, 63);
     
 }
