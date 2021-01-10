@@ -106,10 +106,11 @@ html
 {
     width: 100%;
     height: 95vh;
-    background-color: rgb(246, 247, 248);
+    
     background-image: url(asset/image/avatar.jpeg);
     background-repeat: no-repeat;
-    background-position: right 0px bottom 0px;
+    background-position: right 0px top 0px;
+    box-sizing: border-box
 }
 
 .header .menu
@@ -118,6 +119,7 @@ html
     height: 95vh;
     background-color: white;
     margin-top: 0;
+    position: fixed;
 }
 
 .header .menu .logo_container
@@ -202,8 +204,14 @@ position: absolute;
 left: 10rem;
 top: 12.5rem;
 height: 12rem;
-}
 
+
+h1::before {
+    content: 'Hi There \A';
+    white-space: pre;
+    font-size: 10px;
+}
+}
 .header .banner_content p
 {
 font-family: sans-serif;
@@ -220,10 +228,22 @@ color: rgb(51, 57, 63);
 font-family: sans-serif;
 padding-bottom: 15px;
 }
+.banner .adress
+{
+display: flex;
+flex-wrap: nowrap;
+position: absolute;
+width: 700px;
+left: 155px;
+bottom: 50px;
+background-color: rgb(246, 247, 248);
+}
 
 .banner .adress div
 {
  margin-right: 25px;
+ 
+
 }
 
 .banner .adress
@@ -266,6 +286,7 @@ color: rgb(51, 57, 63);
     padding-left: 160px;
     padding-right: 15px;
     height: 680px;
+    box-sizing: border-box;
 }
 
 .about .about_me
@@ -432,143 +453,69 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*  FIN PARTIE About Me*/
 /*   PARTIE My Experience My EducatioN*/
-.cv .top_cv
-{
-    width: 1180px;
-    height: 65px;
+
+.top_cv {
+    display: flex;
+
     
 }
 
-.cv .top_cv .titre_experience
-{
-    width: 635px;
-    height: 65px;
+.titre_experience {
+ 
 }
-
-.cv .top_cv .titre_experience p
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-size: 1.1rem;
-    font-weight:900;
-    text-align: left;
-    color: rgb(51, 57, 63)
+.titre_education {
+ 
 }
-
-.cv .top_cv .titre_education
-{ position: relative;
-    bottom: 65px;
-    left: 630px;
-  width: 645px; 
-  height: 65px; 
-}
-.cv .top_cv .titre_education p
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-size: 1.1rem;
-    font-weight:900;
-    text-align: left;
-    color: rgb(51, 57, 63);
-}
-.cv .content_cv
-{
+.timeline {
+    padding-left: 20px;
+    margin-left: 20px;
     position: relative;
-    margin-left: -5px;
-    bottom: 65px;  
-    width: 540px;
-    height: 550px;
-}
-.cv .content_cv2
-{
+  }
+  
+  .timeline::before {
+    content: ' ';
     position: absolute;
-    left:755px ;
-    bottom: 500px;
-    margin-left: 15px;
-    top : 1455px;
-    width: 540px;
-    height: 550px;
-}
-
-.cv .content_cv p
-{   
+    top: 14px;
+    left: -2px;
     display: block;
-    
-
-}
-
-.cv .content_cv2 p
-{   
+    width: 2px;
+    height: 100%;
+    background-color: RED;
+  }
+  
+  h4::before {
+    content: ' ';
     display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    left: -26px;
+    top: 15px;
     
-
-}
-
-.cv .content_cv .content_experience
-{
-    margin-right:10px;
-    width: 580px;
-    height: 550px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-}
-
-.cv .content_cv2 .content_education
-{
-    margin-left: 10px;
-    width: 537px;
-    height: 550px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
-
-.cv .content_cv li
-{
-    background-image: url('asset/image/puce.png');
-    background-repeat: no-repeat;
-    background-position: 1em 2.5em;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
-    padding-top: 2em;
-    list-style-type: none;
-
-}
-.cv .content_cv2 li
-{
-    background-image: url('asset/image/puce.png');
-    background-repeat: no-repeat;
-    background-position: 1em 2.5em;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
-    padding-top: 2em;
-    list-style-type: none;
-}
-/*  titre, date, comment inclus dans cv et cv2......*/
-.titre
-{   padding-top : 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-size: 0.9rem;
-    font-weight:900;
-    color: rgb(51, 57, 63);
-}
-.date
-{   margin-top: -13px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-size: 0.75rem;
-    font-weight:200;
-    color: rgb(134, 163, 168);
-}
-.comment
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-size: 0.85rem;
-    font-weight: 400;
-    color: rgb(51, 57, 63);
-    margin-bottom: 25px;
-}
+  }
+  
+  
+  
 /*  FIN......titre, date, comment dans cv et cv2......*/
 /*  FIN PARTIE My Experience My Education*/
+.curriculum{
+
+    display: flex;
+
+
+}
+
+.titre_experience{
+    width: 50%;
+
+}
+ .experience{
+
+    width: 50%;
+ }  
+ 
 
 
 /*   PARTIE My Experience My Services*/
@@ -663,7 +610,7 @@ flex-wrap: wrap;
     width: 250px;
 }
 
-/*  FIN PARTIE My Experience My Services**/
+/*  FIN PARTIE  My Services**/
 /*   PARTIE  My Works....................... */
 
 .my_works 
