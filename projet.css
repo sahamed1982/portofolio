@@ -454,16 +454,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 /*  FIN PARTIE About Me*/
 /*   PARTIE My Experience My EducatioN*/
 
-.top_cv {
-    display: flex;
 
-    
-}
-
-.titre_experience {
- 
-}
-.titre_education {
  
 }
 .timeline {
@@ -498,18 +489,17 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   
   
   
-/*  FIN......titre, date, comment dans cv et cv2......*/
+/*  FIN......*/
 /*  FIN PARTIE My Experience My Education*/
+
 .curriculum{
 
     display: flex;
-
-
 }
 
-.titre_experience{
-    width: 50%;
+.titre_experience {
 
+    width: 50%;
 }
  .experience{
 
@@ -522,8 +512,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .my_services
 {
-    width: fit-content;
+    width: 100%;
     margin-right: 10px;
+    margin-top: 30px;
    
 }
 .my_services .services
