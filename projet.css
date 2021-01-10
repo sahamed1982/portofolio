@@ -106,7 +106,7 @@ html
 {
     width: 100%;
     height: 95vh;
-    
+    background-color: rgb(246, 247, 248);
     background-image: url(asset/image/avatar.jpeg);
     background-repeat: no-repeat;
     background-position: right 0px top 0px;
